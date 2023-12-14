@@ -119,3 +119,138 @@ video {
   text-align: center;
   cursor: default;
 }
+
+/* Ex 1 */
+
+#ex01 .box:hover {
+  background-color: var(--midnight-green);
+}
+
+/* Ex 2 */
+
+#ex02 .box:hover {
+  background-color: var(--midnight-green);
+}
+
+#ex02 .box {
+  transition: 0.2s ease-in-out;
+}
+
+/* Ex 3 */
+
+#ex03 .box:hover {
+  background-color: var(--midnight-green);
+}
+
+#ex03 .box {
+  transition: 0.2s 0.4s ease-out;
+}
+
+/* Ex 4 */
+#ex04 .box:hover {
+  background-color: var(--midnight-green);
+  color: var(--beige);
+}
+
+#ex04 .box {
+  transition: 0.2s ease-in-out;
+}
+
+/* Ex 5 */
+
+#ex05 .box:hover {
+  background-color: var(--midnight-green);
+  color: var(--beige);
+}
+
+#ex05 .box {
+  transition: color 0.2s 0.2s ease-in-out;
+}
+
+/* Ex 6 */
+
+#ex06 .wrapper:hover .box {
+  background-color: var(--midnight-green);
+}
+
+#ex06 .box {
+  transition: 0.2s ease-in-out;
+}
+
+/* Ex 7 */
+
+#ex07 .wrapper:hover .box {
+  background-color: var(--midnight-green);
+}
+
+#ex07 .box {
+  transition: 0.2s ease-in-out;
+}
+
+#ex07 .box:nth-child(2) {
+  transition-delay: 0.2s;
+}
+
+#ex07 .box:nth-child(3) {
+  transition-delay: 0.4s;
+}
+
+/* Ex 8 */
+
+#ex08 .wrapper:hover {
+  background-color: var(--midnight-green);
+}
+
+#ex08 .wrapper:hover .box {
+  background-color: var(--beige);
+}
+
+#ex08 .wrapper,
+.box {
+  transition: 0.2s ease-in-out;
+}
+
+/* Ex 9 */
+
+#ex09 .wrapper:hover {
+  background-color: var(--midnight-green);
+}
+
+#ex09 .wrapper:hover .box {
+  background-color: var(--beige);
+}
+
+#ex09 .wrapper,
+.box {
+  transition: 0.2s ease-in-out;
+}
+
+#ex09 .box {
+  transition-delay: 0.3s;
+}
+
+/* Ex 10 */
+
+#ex10 .box:hover {
+  transform: translateY(20px);
+}
+
+/* Ex 11 */
+
+#ex11 .box:hover {
+  rotate: 90deg;
+}
+
+#ex11 .box {
+  transition: 0.3s ease-in-out;
+}
+
+/* Ex 12 */
+
+#ex12 .box:hover {
+  transform: scale(1.2);
+}
+
+#ex12 .box {
+  transition: 0.3s ease-in-out;
+}
